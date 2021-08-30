@@ -12,7 +12,17 @@ The search bar capabilities of the nav bar are not yet working. The unit tests a
 done yet. There is still a lot of styling to get done. There is a schema.sql file that inserts
 100 contacts, but it does not insert automatically. 
 
+Challenges:
+One of the biggest set backs was that I named one of the models "Case" at first, which caused a lot of 
+trouble because Case is already a Java class. I renamed to Cases to get around this and called any
+instances of Cases either "case1" or "cases". I would will be careful about what I 
 
+I struggle a lot with the front end and ended up converted to Thymeleaf after a lot of work had already
+been done because it seemed easier to pull in the fields I needed. I also tried using Bootstrap.
+
+The main challenge was time management. I got so hung up on certain parts of the project that I 
+did not meet many of the requirements. I have a much better understanding of what it takes to get
+a project of this size done and will better about time management in the future.
 
 
 
